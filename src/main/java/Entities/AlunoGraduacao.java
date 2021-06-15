@@ -1,3 +1,5 @@
+package Entities;
+
 public class AlunoGraduacao extends Aluno {
 
     public boolean estaAprovado(){

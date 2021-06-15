@@ -1,3 +1,5 @@
+package Entities;
+
 public class Professor extends Pessoa{
     private String titulacaoMaxima;
 
