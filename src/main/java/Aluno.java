@@ -3,7 +3,7 @@ import java.util.List;
 public class Aluno extends Pessoa{
     private String matricula;
     private List<Float> notas;
-
+    private Professor professor;
 
     public void addNotas(Float nota){
         this.notas.add(nota);
@@ -26,6 +26,15 @@ public class Aluno extends Pessoa{
 
     public Aluno setMatricula(String matricula) {
         this.matricula = matricula;
+        return this;
+    }
+
+    public Professor getProfessor() {
+        return professor;
+    }
+
+    public Aluno setProfessor(Professor professor) {
+        this.professor = professor;
         return this;
     }
 }
